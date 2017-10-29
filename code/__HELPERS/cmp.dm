@@ -58,6 +58,7 @@ GLOBAL_VAR_INIT(cmp_field, "name")
 		. = B.failures - A.failures
 	if (!.)
 		. = B.qdels - A.qdels
+<<<<<<< HEAD
     
 /proc/cmp_profile_avg_time_dsc(list/A, list/B)
 	return (B[PROFILE_ITEM_TIME]/(B[PROFILE_ITEM_COUNT] || 1)) - (A[PROFILE_ITEM_TIME]/(A[PROFILE_ITEM_COUNT] || 1))
@@ -67,3 +68,9 @@ GLOBAL_VAR_INIT(cmp_field, "name")
 
 /proc/cmp_profile_count_dsc(list/A, list/B)
 	return B[PROFILE_ITEM_COUNT] - A[PROFILE_ITEM_COUNT]
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 228af28... initial commit
+>>>>>>> Upstream/master
